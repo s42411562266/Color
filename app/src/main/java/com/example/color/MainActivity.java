@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
         BIG.setTextSize(size);
         BIG.setMovementMethod(new ScrollingMovementMethod());
         BIG.setText(str);
-        BIG.setTextColor(Color.rgb(red,green,blue));
+        BIG.setBackgroundColor(Color.rgb(red,green,blue));
     }
 }
